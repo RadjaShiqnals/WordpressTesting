@@ -1,0 +1,473 @@
+0000.001 (0) Opened log file at time: Mon, 04 Mar 2024 06:46:59 +0000 on http://localhost/WordpressTesting
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.2.4 (apache2handler, Windows NT MRE 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 92M | 96M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 44047.1 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.006 (0) Semaphore (fd, wp_options) being initialised
+0000.008 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.010 (0) Set semaphore last lock (fd) time to 2024-03-04 06:46:59
+0000.011 (0) Semaphore lock (fd) complete
+0000.013 (0) Backup run: resumption=0, nonce=3ecd24640ef7, file_nonce=3ecd24640ef7 begun at=1709534819 (0s ago), job type=backup
+0000.014 (0) Scheduling a resumption (1) after 300 seconds (1709535119) in case this run gets aborted
+0000.023 (0) Checking if we have a zip executable available
+0000.025 (0) Creation of backups of directories: beginning
+0000.028 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.719 (0) Total entities for the zip file: 1555 directories, 8162 files (0 skipped as non-modified), 154.6 MB
+0002.726 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0002.796 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 100 files added (on-disk size: 273.9 KB)
+0002.824 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 200 files added (on-disk size: 273.9 KB)
+0002.850 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 300 files added (on-disk size: 273.9 KB)
+0002.851 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 8162 files batched, 301 (302) added so far); re-opening (prior size: 273.9 KB)
+0004.708 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11406.2 KB/s)
+0004.709 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.2456629276276, normalised_time=2.2443851014084, max_time=4.7080478668213, data points known=1, old_max_bytes=26214400, new_max_bytes=70079951)
+0004.746 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 400 files added (on-disk size: 4339 KB)
+0004.773 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 500 files added (on-disk size: 4339 KB)
+0004.801 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 600 files added (on-disk size: 4339 KB)
+0004.828 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 700 files added (on-disk size: 4339 KB)
+0004.858 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 800 files added (on-disk size: 4339 KB)
+0004.891 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 900 files added (on-disk size: 4339 KB)
+0004.921 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 1000 files added (on-disk size: 4339 KB)
+0004.951 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 1100 files added (on-disk size: 4339 KB)
+0004.984 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 1200 files added (on-disk size: 4339 KB)
+0005.012 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 1300 files added (on-disk size: 4339 KB)
+0005.014 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.8 MB, 8162 files batched, 1001 (1303) added so far); re-opening (prior size: 4339 KB)
+0014.647 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 1400 files added (on-disk size: 9616.8 KB)
+0014.673 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 1500 files added (on-disk size: 9616.8 KB)
+0014.703 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 1600 files added (on-disk size: 9616.8 KB)
+0014.730 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 1700 files added (on-disk size: 9616.8 KB)
+0014.755 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 1800 files added (on-disk size: 9616.8 KB)
+0014.781 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 1900 files added (on-disk size: 9616.8 KB)
+0014.807 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 2000 files added (on-disk size: 9616.8 KB)
+0014.832 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 2100 files added (on-disk size: 9616.8 KB)
+0014.857 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 2200 files added (on-disk size: 9616.8 KB)
+0014.882 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 2300 files added (on-disk size: 9616.8 KB)
+0014.885 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.8 MB, 8162 files batched, 1001 (2304) added so far); re-opening (prior size: 9616.8 KB)
+0022.336 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 2400 files added (on-disk size: 10833.8 KB)
+0022.361 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 2500 files added (on-disk size: 10833.8 KB)
+0022.387 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 2600 files added (on-disk size: 10833.8 KB)
+0022.414 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 2700 files added (on-disk size: 10833.8 KB)
+0022.442 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 2800 files added (on-disk size: 10833.8 KB)
+0022.468 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 2900 files added (on-disk size: 10833.8 KB)
+0022.495 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 3000 files added (on-disk size: 10833.8 KB)
+0022.522 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 3100 files added (on-disk size: 10833.8 KB)
+0022.548 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 3200 files added (on-disk size: 10833.8 KB)
+0022.575 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 3300 files added (on-disk size: 10833.8 KB)
+0022.578 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.8 MB, 8162 files batched, 1001 (3305) added so far); re-opening (prior size: 10833.8 KB)
+0034.065 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 3400 files added (on-disk size: 14764 KB)
+0034.094 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 3500 files added (on-disk size: 14764 KB)
+0034.120 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 3600 files added (on-disk size: 14764 KB)
+0034.149 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 3700 files added (on-disk size: 14764 KB)
+0034.179 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 3800 files added (on-disk size: 14764 KB)
+0034.210 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 3900 files added (on-disk size: 14764 KB)
+0034.242 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 4000 files added (on-disk size: 14764 KB)
+0034.277 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 4100 files added (on-disk size: 14764 KB)
+0034.311 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 4200 files added (on-disk size: 14764 KB)
+0034.340 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 4300 files added (on-disk size: 14764 KB)
+0034.344 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (29.9 MB, 8162 files batched, 1001 (4306) added so far); re-opening (prior size: 14764 KB)
+0044.205 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 4400 files added (on-disk size: 22625.4 KB)
+0044.246 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 4500 files added (on-disk size: 22625.4 KB)
+0044.283 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 4600 files added (on-disk size: 22625.4 KB)
+0044.317 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 4700 files added (on-disk size: 22625.4 KB)
+0044.357 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 4800 files added (on-disk size: 22625.4 KB)
+0044.401 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 4900 files added (on-disk size: 22625.4 KB)
+0044.435 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 5000 files added (on-disk size: 22625.4 KB)
+0044.465 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 5100 files added (on-disk size: 22625.4 KB)
+0044.497 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 5200 files added (on-disk size: 22625.4 KB)
+0044.532 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 5300 files added (on-disk size: 22625.4 KB)
+0044.535 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.4 MB, 8162 files batched, 1001 (5307) added so far); re-opening (prior size: 22625.4 KB)
+0055.940 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 5400 files added (on-disk size: 26616.1 KB)
+0055.971 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 5500 files added (on-disk size: 26616.1 KB)
+0056.008 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 5600 files added (on-disk size: 26616.1 KB)
+0056.045 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 5700 files added (on-disk size: 26616.1 KB)
+0056.083 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 5800 files added (on-disk size: 26616.1 KB)
+0056.116 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 5900 files added (on-disk size: 26616.1 KB)
+0056.147 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 6000 files added (on-disk size: 26616.1 KB)
+0056.187 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 6100 files added (on-disk size: 26616.1 KB)
+0056.223 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 6200 files added (on-disk size: 26616.1 KB)
+0056.255 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 6300 files added (on-disk size: 26616.1 KB)
+0056.258 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.8 MB, 8162 files batched, 1001 (6308) added so far); re-opening (prior size: 26616.1 KB)
+0062.919 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 6400 files added (on-disk size: 33338.8 KB)
+0062.953 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 6500 files added (on-disk size: 33338.8 KB)
+0062.984 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 6600 files added (on-disk size: 33338.8 KB)
+0063.017 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 6700 files added (on-disk size: 33338.8 KB)
+0063.046 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 6800 files added (on-disk size: 33338.8 KB)
+0063.074 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 6900 files added (on-disk size: 33338.8 KB)
+0063.104 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 7000 files added (on-disk size: 33338.8 KB)
+0063.135 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 7100 files added (on-disk size: 33338.8 KB)
+0063.167 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 7200 files added (on-disk size: 33338.8 KB)
+0063.198 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 7300 files added (on-disk size: 33338.8 KB)
+0063.202 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19 MB, 8162 files batched, 1001 (7309) added so far); re-opening (prior size: 33338.8 KB)
+0069.365 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 7400 files added (on-disk size: 40345.1 KB)
+0069.392 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 7500 files added (on-disk size: 40345.1 KB)
+0069.420 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 7600 files added (on-disk size: 40345.1 KB)
+0069.447 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 7700 files added (on-disk size: 40345.1 KB)
+0069.474 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 7800 files added (on-disk size: 40345.1 KB)
+0069.506 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 7900 files added (on-disk size: 40345.1 KB)
+0069.535 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 8000 files added (on-disk size: 40345.1 KB)
+0069.563 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.tmp: 8100 files added (on-disk size: 40345.1 KB)
+0082.274 (0) Creating zip file manifest (backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.list-temp.tmp)
+0082.293 (0) Successfully created zip file manifest (size: 689980)
+0082.601 (0) Created plugins zip (0) - 42080.1 KB in 82.6 s (509.6 KB/s) (sha1: a3ffecd5f740035b2e0cd5caa99b3548fb739f1a, sha256: 153fa2f170a6ba575b9bb703e66ece606b770c562fbf6c00393f733b39f67b90)
+0082.609 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0082.609 (0) No remote despatch: user chose no remote backup service
+0082.610 (0) Recording as successfully uploaded: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip
+0082.611 (0) Deleting zip manifest (backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip.list.tmp)
+0082.613 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0082.614 (0) Number of backup sets in history: 0; groups (db): 1
+0082.615 (0) Number of backup sets in history: 0; groups (files): 1
+0082.615 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0082.620 (0) Beginning creation of dump of themes (split every: 400 MB)
+0083.018 (0) Total entities for the zip file: 348 directories, 1023 files (0 skipped as non-modified), 30.7 MB
+0083.051 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0083.080 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0083.119 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0083.150 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0083.182 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0083.216 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0083.251 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0083.289 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0083.323 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0083.355 (0) Zip: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0083.357 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (30.5 MB, 1023 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0091.088 (0) Creating zip file manifest (backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.list-temp.tmp)
+0091.092 (0) Successfully created zip file manifest (size: 84434)
+0091.214 (0) Created themes zip (0) - 16873.1 KB in 8.6 s (1964.1 KB/s) (sha1: 4712ae9ba4d2e7df2230b62f873376cff8143131, sha256: a9d6ffdd35d56a7c97d9887d74affd22be59ecf4af31703c2e7dad4e3220a6b8)
+0091.218 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0091.218 (0) No remote despatch: user chose no remote backup service
+0091.219 (0) Recording as successfully uploaded: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip
+0091.221 (0) Deleting zip manifest (backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip.list.tmp)
+0091.222 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0091.223 (0) Number of backup sets in history: 0; groups (db): 1
+0091.223 (0) Number of backup sets in history: 0; groups (files): 1
+0091.224 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0091.228 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0091.228 (0) Looking for candidates to backup in: E:\xampps\htdocs\WordpressTesting/wp-content/uploads
+0091.229 (0) finding files: 189a83f4b8afefc082c65c3c85ee3268-edd-stripe-rate-limiting.log: adding to list (1)
+0091.230 (0) finding files: 2022: adding to list (2)
+0091.230 (0) finding files: 2024: adding to list (3)
+0091.231 (0) finding files: astra-docs: adding to list (4)
+0091.231 (0) finding files: astra-sites: adding to list (5)
+0091.232 (0) finding files: edd: adding to list (6)
+0091.233 (0) finding files: elementor: adding to list (7)
+0091.233 (0) finding files: wpforms: adding to list (8)
+0091.234 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0091.254 (0) Total entities for the zip file: 12 directories, 62 files (0 skipped as non-modified), 3 MB
+0091.539 (0) Creating zip file manifest (backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-uploads.zip.list-temp.tmp)
+0091.540 (0) Successfully created zip file manifest (size: 4318)
+0091.554 (0) Created uploads zip (0) - 1359.1 KB in 0.3 s (4276.9 KB/s) (sha1: 9cdef3c1d991c063a6f6d094cc5150a1cb5c44f9, sha256: fe663af1dd7ff98a6d4707fc68060689a280b1f80412302b0cd9f582eb7ef76f)
+0091.558 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0091.558 (0) No remote despatch: user chose no remote backup service
+0091.559 (0) Recording as successfully uploaded: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-uploads.zip
+0091.560 (0) Deleting zip manifest (backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-uploads.zip.list.tmp)
+0091.561 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0091.562 (0) Number of backup sets in history: 0; groups (db): 1
+0091.563 (0) Number of backup sets in history: 0; groups (files): 1
+0091.564 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0091.567 (0) No backup of mu-plugins: excluded by user's options
+0091.568 (0) Beginning backup of other directories found in the content directory (index: 0)
+0091.569 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0091.570 (0) Looking for candidates to backup in: E:\xampps\htdocs\WordpressTesting/wp-content
+0091.571 (0) finding files: index.php: adding to list (1)
+0091.571 (0) finding files: plugins: skipping: this is the plugins directory
+0091.572 (0) finding files: themes: skipping: this is the themes directory
+0091.573 (0) finding files: updraft: skipping: this is the updraft directory
+0091.573 (0) finding files: upgrade: skipping: excluded by options
+0091.574 (0) finding files: uploads: skipping: this is the uploads directory
+0091.578 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0091.601 (0) Creating zip file manifest (backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-others.zip.list-temp.tmp)
+0091.603 (0) Successfully created zip file manifest (size: 43)
+0091.609 (0) Created others zip (0) - 0.1 KB in 0 s (4.4 KB/s) (sha1: bb32b53fc014cc5f705c6a2569cf72967b199ded, sha256: 4dad94751985cfdb99c61807d436e02948dac955464965eb713cfca0b2aa109d)
+0091.612 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0091.612 (0) No remote despatch: user chose no remote backup service
+0091.613 (0) Recording as successfully uploaded: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-others.zip
+0091.614 (0) Deleting zip manifest (backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-others.zip.list.tmp)
+0091.615 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0091.616 (0) Number of backup sets in history: 0; groups (db): 1
+0091.616 (0) Number of backup sets in history: 0; groups (files): 1
+0091.617 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0091.622 (0) Saving backup status to database (elements: 8)
+0091.623 (0) Beginning creation of database dump (WordPress DB)
+0091.624 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0091.715 (0) Table wp_options: Total expected rows (via COUNT): 604
+0091.880 (0) Table wp_options: Rows added in this batch (next record: 824): 600 (uncompressed bytes in this segment=9765283) in 0.23 seconds
+0091.886 (0) Table wp_options: finishing file(s) (2, 983.9 KB)
+0091.896 (0) Table wp_users: Total expected rows (via COUNT): 1
+0091.897 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.898 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1191) in 0.01 seconds
+0091.903 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0091.915 (0) Table wp_usermeta: Total expected rows (via COUNT): 20
+0091.916 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.917 (0) Table wp_usermeta: Rows added in this batch (next record: 21): 20 (uncompressed bytes in this segment=1759) in 0.01 seconds
+0091.923 (0) Table wp_usermeta: finishing file(s) (2, 1 KB)
+0091.938 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 9
+0091.939 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.940 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 30): 9 (uncompressed bytes in this segment=5046) in 0.01 seconds
+0091.948 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.1 KB)
+0091.961 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0091.964 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=624) in 0.01 seconds
+0091.971 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0091.984 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0091.985 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.988 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=675) in 0.01 seconds
+0091.994 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0092.008 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 23
+0092.009 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.011 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=2777) in 0.01 seconds
+0092.017 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0092.037 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0092.040 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+0092.046 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0092.057 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0092.058 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.060 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1885) in 0.01 seconds
+0092.066 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0092.082 (0) Table wp_edd_adjustmentmeta: Total expected rows (via COUNT): 0
+0092.084 (0) Table wp_edd_adjustmentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.01 seconds
+0092.090 (0) Table wp_edd_adjustmentmeta: finishing file(s) (2, 0.4 KB)
+0092.106 (0) Table wp_edd_adjustments: Total expected rows (via COUNT): 0
+0092.108 (0) Table wp_edd_adjustments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1550) in 0.01 seconds
+0092.113 (0) Table wp_edd_adjustments: finishing file(s) (2, 0.6 KB)
+0092.125 (0) Table wp_edd_customer_addresses: Total expected rows (via COUNT): 0
+0092.127 (0) Table wp_edd_customer_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1247) in 0.01 seconds
+0092.167 (0) Table wp_edd_customer_addresses: finishing file(s) (2, 0.5 KB)
+0092.182 (0) Table wp_edd_customer_email_addresses: Total expected rows (via COUNT): 0
+0092.183 (0) Table wp_edd_customer_email_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1043) in 0.01 seconds
+0092.188 (0) Table wp_edd_customer_email_addresses: finishing file(s) (2, 0.5 KB)
+0092.199 (0) Table wp_edd_customermeta: Total expected rows (via COUNT): 0
+0092.201 (0) Table wp_edd_customermeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.01 seconds
+0092.206 (0) Table wp_edd_customermeta: finishing file(s) (2, 0.4 KB)
+0092.218 (0) Table wp_edd_customers: Total expected rows (via COUNT): 0
+0092.220 (0) Table wp_edd_customers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1033) in 0.01 seconds
+0092.224 (0) Table wp_edd_customers: finishing file(s) (2, 0.5 KB)
+0092.238 (0) Table wp_edd_logmeta: Total expected rows (via COUNT): 0
+0092.239 (0) Table wp_edd_logmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+0092.244 (0) Table wp_edd_logmeta: finishing file(s) (2, 0.4 KB)
+0092.258 (0) Table wp_edd_logs: Total expected rows (via COUNT): 0
+0092.259 (0) Table wp_edd_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=972) in 0.01 seconds
+0092.264 (0) Table wp_edd_logs: finishing file(s) (2, 0.4 KB)
+0092.280 (0) Table wp_edd_logs_api_requestmeta: Total expected rows (via COUNT): 0
+0092.281 (0) Table wp_edd_logs_api_requestmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.01 seconds
+0092.286 (0) Table wp_edd_logs_api_requestmeta: finishing file(s) (2, 0.4 KB)
+0092.302 (0) Table wp_edd_logs_api_requests: Total expected rows (via COUNT): 0
+0092.304 (0) Table wp_edd_logs_api_requests: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1075) in 0.01 seconds
+0092.310 (0) Table wp_edd_logs_api_requests: finishing file(s) (2, 0.5 KB)
+0092.325 (0) Table wp_edd_logs_file_downloadmeta: Total expected rows (via COUNT): 0
+0092.326 (0) Table wp_edd_logs_file_downloadmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=769) in 0.01 seconds
+0092.332 (0) Table wp_edd_logs_file_downloadmeta: finishing file(s) (2, 0.4 KB)
+0092.344 (0) Table wp_edd_logs_file_downloads: Total expected rows (via COUNT): 0
+0092.346 (0) Table wp_edd_logs_file_downloads: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1133) in 0.01 seconds
+0092.352 (0) Table wp_edd_logs_file_downloads: finishing file(s) (2, 0.4 KB)
+0092.369 (0) Table wp_edd_notemeta: Total expected rows (via COUNT): 0
+0092.370 (0) Table wp_edd_notemeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=643) in 0.01 seconds
+0092.374 (0) Table wp_edd_notemeta: finishing file(s) (2, 0.4 KB)
+0092.388 (0) Table wp_edd_notes: Total expected rows (via COUNT): 0
+0092.390 (0) Table wp_edd_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=897) in 0.01 seconds
+0092.395 (0) Table wp_edd_notes: finishing file(s) (2, 0.4 KB)
+0092.408 (0) Table wp_edd_notifications: Total expected rows (via COUNT): 0
+0092.409 (0) Table wp_edd_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1057) in 0.01 seconds
+0092.415 (0) Table wp_edd_notifications: finishing file(s) (2, 0.5 KB)
+0092.430 (0) Table wp_edd_order_addresses: Total expected rows (via COUNT): 0
+0092.432 (0) Table wp_edd_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1184) in 0.01 seconds
+0092.437 (0) Table wp_edd_order_addresses: finishing file(s) (2, 0.5 KB)
+0092.456 (0) Table wp_edd_order_adjustmentmeta: Total expected rows (via COUNT): 0
+0092.459 (0) Table wp_edd_order_adjustmentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.01 seconds
+0092.467 (0) Table wp_edd_order_adjustmentmeta: finishing file(s) (2, 0.4 KB)
+0092.483 (0) Table wp_edd_order_adjustments: Total expected rows (via COUNT): 0
+0092.486 (0) Table wp_edd_order_adjustments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1293) in 0.01 seconds
+0092.492 (0) Table wp_edd_order_adjustments: finishing file(s) (2, 0.5 KB)
+0092.508 (0) Table wp_edd_order_itemmeta: Total expected rows (via COUNT): 0
+0092.510 (0) Table wp_edd_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.01 seconds
+0092.515 (0) Table wp_edd_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0092.531 (0) Table wp_edd_order_items: Total expected rows (via COUNT): 0
+0092.533 (0) Table wp_edd_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1521) in 0.01 seconds
+0092.538 (0) Table wp_edd_order_items: finishing file(s) (2, 0.6 KB)
+0092.553 (0) Table wp_edd_order_transactions: Total expected rows (via COUNT): 0
+0092.554 (0) Table wp_edd_order_transactions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1207) in 0.01 seconds
+0092.558 (0) Table wp_edd_order_transactions: finishing file(s) (2, 0.5 KB)
+0092.572 (0) Table wp_edd_ordermeta: Total expected rows (via COUNT): 0
+0092.574 (0) Table wp_edd_ordermeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=652) in 0.01 seconds
+0092.579 (0) Table wp_edd_ordermeta: finishing file(s) (2, 0.4 KB)
+0092.591 (0) Table wp_edd_orders: Total expected rows (via COUNT): 0
+0092.593 (0) Table wp_edd_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1913) in 0.01 seconds
+0092.598 (0) Table wp_edd_orders: finishing file(s) (2, 0.7 KB)
+0092.613 (0) Table wp_links: Total expected rows (via COUNT): 0
+0092.615 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0092.620 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0092.644 (0) Table wp_postmeta: Total expected rows (via COUNT): 838
+0092.645 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.664 (0) Table wp_postmeta: Rows added in this batch (next record: 926): 838 (uncompressed bytes in this segment=980628) in 0.04 seconds
+0092.669 (0) Table wp_postmeta: finishing file(s) (2, 79.9 KB)
+0092.683 (0) Table wp_posts: Total expected rows (via COUNT): 120
+0092.684 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.689 (0) Table wp_posts: Rows added in this batch (next record: 1338): 120 (uncompressed bytes in this segment=147686) in 0.02 seconds
+0092.694 (0) Table wp_posts: finishing file(s) (2, 23.3 KB)
+0092.704 (0) Table wp_term_relationships: Total expected rows (approximate): 38
+0092.707 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 38 (uncompressed bytes in this segment=1220) in 0.01 seconds
+0092.711 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0092.723 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 9
+0092.723 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.725 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1125) in 0.01 seconds
+0092.729 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0092.744 (0) Table wp_termmeta: Total expected rows (via COUNT): 8
+0092.745 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.746 (0) Table wp_termmeta: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1009) in 0.01 seconds
+0092.752 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0092.763 (0) Table wp_terms: Total expected rows (via COUNT): 9
+0092.764 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.765 (0) Table wp_terms: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=997) in 0.01 seconds
+0092.770 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0092.784 (0) Table wp_e_events: Total expected rows (via COUNT): 10
+0092.784 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.786 (0) Table wp_e_events: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2516) in 0.01 seconds
+0092.791 (0) Table wp_e_events: finishing file(s) (2, 0.7 KB)
+0092.807 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0092.809 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1979) in 0.01 seconds
+0092.814 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0092.828 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0092.830 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1140) in 0.01 seconds
+0092.835 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0092.850 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0092.851 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.01 seconds
+0092.856 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0092.870 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0092.871 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=577) in 0.01 seconds
+0092.875 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0092.887 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0092.888 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1109) in 0.01 seconds
+0092.893 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0092.907 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0092.909 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.01 seconds
+0092.914 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0092.930 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0092.932 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.01 seconds
+0092.937 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0092.962 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 1
+0092.963 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.966 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=678) in 0.02 seconds
+0092.973 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.4 KB)
+0092.975 (0) PHP event: code E_WARNING: filemtime(): stat failed for E:\xampps\htdocs\WordpressTesting/wp-content/updraft/backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db.gz (line 1925, E:\xampps\htdocs\WordpressTesting\wp-content\plugins\updraftplus\backup.php)
+0092.978 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_options.table.tmpr825.gz (1/48/fopen): adding to final database dump
+0092.995 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_options.table.gz (2/48/fopen): adding to final database dump
+0092.997 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_users.table.tmpr2.gz (3/48/fopen): adding to final database dump
+0092.998 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_users.table.gz (4/48/fopen): adding to final database dump
+0093.000 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_usermeta.table.tmpr22.gz (5/48/fopen): adding to final database dump
+0093.001 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_usermeta.table.gz (6/48/fopen): adding to final database dump
+0093.003 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_actionscheduler_actions.table.tmpr31.gz (7/48/fopen): adding to final database dump
+0093.004 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_actionscheduler_actions.table.gz (8/48/fopen): adding to final database dump
+0093.005 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/48/fopen): adding to final database dump
+0093.006 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_actionscheduler_claims.table.gz (10/48/fopen): adding to final database dump
+0093.007 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/48/fopen): adding to final database dump
+0093.009 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_actionscheduler_groups.table.gz (12/48/fopen): adding to final database dump
+0093.010 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_actionscheduler_logs.table.tmpr24.gz (13/48/fopen): adding to final database dump
+0093.011 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_actionscheduler_logs.table.gz (14/48/fopen): adding to final database dump
+0093.013 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_commentmeta.table.tmpr0.gz (15/48/fopen): adding to final database dump
+0093.014 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_commentmeta.table.gz (16/48/fopen): adding to final database dump
+0093.015 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_comments.table.tmpr2.gz (17/48/fopen): adding to final database dump
+0093.016 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_comments.table.gz (18/48/fopen): adding to final database dump
+0093.017 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_adjustmentmeta.table.tmpr0.gz (19/48/fopen): adding to final database dump
+0093.018 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_adjustmentmeta.table.gz (20/48/fopen): adding to final database dump
+0093.020 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_adjustments.table.tmpr0.gz (21/48/fopen): adding to final database dump
+0093.021 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_adjustments.table.gz (22/48/fopen): adding to final database dump
+0093.022 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_customer_addresses.table.tmpr0.gz (23/48/fopen): adding to final database dump
+0093.023 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_customer_addresses.table.gz (24/48/fopen): adding to final database dump
+0093.024 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_customer_email_addresses.table.tmpr0.gz (25/48/fopen): adding to final database dump
+0093.025 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_customer_email_addresses.table.gz (26/48/fopen): adding to final database dump
+0093.026 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_customermeta.table.tmpr0.gz (27/48/fopen): adding to final database dump
+0093.027 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_customermeta.table.gz (28/48/fopen): adding to final database dump
+0093.027 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_customers.table.tmpr0.gz (29/48/fopen): adding to final database dump
+0093.028 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_customers.table.gz (30/48/fopen): adding to final database dump
+0093.029 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logmeta.table.tmpr0.gz (31/48/fopen): adding to final database dump
+0093.030 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logmeta.table.gz (32/48/fopen): adding to final database dump
+0093.031 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logs.table.tmpr0.gz (33/48/fopen): adding to final database dump
+0093.032 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logs.table.gz (34/48/fopen): adding to final database dump
+0093.034 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logs_api_requestmeta.table.tmpr0.gz (35/48/fopen): adding to final database dump
+0093.035 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logs_api_requestmeta.table.gz (36/48/fopen): adding to final database dump
+0093.035 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logs_api_requests.table.tmpr0.gz (37/48/fopen): adding to final database dump
+0093.036 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logs_api_requests.table.gz (38/48/fopen): adding to final database dump
+0093.037 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logs_file_downloadmeta.table.tmpr0.gz (39/48/fopen): adding to final database dump
+0093.038 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logs_file_downloadmeta.table.gz (40/48/fopen): adding to final database dump
+0093.039 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logs_file_downloads.table.tmpr0.gz (41/48/fopen): adding to final database dump
+0093.040 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_logs_file_downloads.table.gz (42/48/fopen): adding to final database dump
+0093.040 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_notemeta.table.tmpr0.gz (43/48/fopen): adding to final database dump
+0093.041 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_notemeta.table.gz (44/48/fopen): adding to final database dump
+0093.042 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_notes.table.tmpr0.gz (45/48/fopen): adding to final database dump
+0093.042 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_notes.table.gz (46/48/fopen): adding to final database dump
+0093.043 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_notifications.table.tmpr0.gz (47/48/fopen): adding to final database dump
+0093.044 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_notifications.table.gz (48/48/fopen): adding to final database dump
+0093.045 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_addresses.table.tmpr0.gz (49/48/fopen): adding to final database dump
+0093.045 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_addresses.table.gz (50/48/fopen): adding to final database dump
+0093.046 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_adjustmentmeta.table.tmpr0.gz (51/48/fopen): adding to final database dump
+0093.047 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_adjustmentmeta.table.gz (52/48/fopen): adding to final database dump
+0093.048 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_adjustments.table.tmpr0.gz (53/48/fopen): adding to final database dump
+0093.048 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_adjustments.table.gz (54/48/fopen): adding to final database dump
+0093.049 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_itemmeta.table.tmpr0.gz (55/48/fopen): adding to final database dump
+0093.050 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_itemmeta.table.gz (56/48/fopen): adding to final database dump
+0093.051 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_items.table.tmpr0.gz (57/48/fopen): adding to final database dump
+0093.052 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_items.table.gz (58/48/fopen): adding to final database dump
+0093.053 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_transactions.table.tmpr0.gz (59/48/fopen): adding to final database dump
+0093.053 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_order_transactions.table.gz (60/48/fopen): adding to final database dump
+0093.054 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_ordermeta.table.tmpr0.gz (61/48/fopen): adding to final database dump
+0093.055 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_ordermeta.table.gz (62/48/fopen): adding to final database dump
+0093.055 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_orders.table.tmpr0.gz (63/48/fopen): adding to final database dump
+0093.056 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_edd_orders.table.gz (64/48/fopen): adding to final database dump
+0093.057 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_links.table.tmpr0.gz (65/48/fopen): adding to final database dump
+0093.058 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_links.table.gz (66/48/fopen): adding to final database dump
+0093.058 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_postmeta.table.tmpr927.gz (67/48/fopen): adding to final database dump
+0093.060 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_postmeta.table.gz (68/48/fopen): adding to final database dump
+0093.061 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_posts.table.tmpr1339.gz (69/48/fopen): adding to final database dump
+0093.062 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_posts.table.gz (70/48/fopen): adding to final database dump
+0093.062 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_term_relationships.table.tmpr100001.gz (71/48/fopen): adding to final database dump
+0093.063 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_term_relationships.table.gz (72/48/fopen): adding to final database dump
+0093.064 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_term_taxonomy.table.tmpr10.gz (73/48/fopen): adding to final database dump
+0093.064 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_term_taxonomy.table.gz (74/48/fopen): adding to final database dump
+0093.065 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_termmeta.table.tmpr9.gz (75/48/fopen): adding to final database dump
+0093.066 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_termmeta.table.gz (76/48/fopen): adding to final database dump
+0093.067 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_terms.table.tmpr10.gz (77/48/fopen): adding to final database dump
+0093.067 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_terms.table.gz (78/48/fopen): adding to final database dump
+0093.068 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_e_events.table.tmpr11.gz (79/48/fopen): adding to final database dump
+0093.069 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_e_events.table.gz (80/48/fopen): adding to final database dump
+0093.069 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_e_submissions.table.tmpr0.gz (81/48/fopen): adding to final database dump
+0093.070 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_e_submissions.table.gz (82/48/fopen): adding to final database dump
+0093.071 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (83/48/fopen): adding to final database dump
+0093.071 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_e_submissions_actions_log.table.gz (84/48/fopen): adding to final database dump
+0093.072 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_e_submissions_values.table.tmpr0.gz (85/48/fopen): adding to final database dump
+0093.073 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_e_submissions_values.table.gz (86/48/fopen): adding to final database dump
+0093.073 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_litespeed_url.table.tmpr0.gz (87/48/fopen): adding to final database dump
+0093.074 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_litespeed_url.table.gz (88/48/fopen): adding to final database dump
+0093.075 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_litespeed_url_file.table.tmpr0.gz (89/48/fopen): adding to final database dump
+0093.075 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_litespeed_url_file.table.gz (90/48/fopen): adding to final database dump
+0093.076 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (91/48/fopen): adding to final database dump
+0093.077 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_wpforms_payment_meta.table.gz (92/48/fopen): adding to final database dump
+0093.078 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_wpforms_payments.table.tmpr0.gz (93/48/fopen): adding to final database dump
+0093.079 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_wpforms_payments.table.gz (94/48/fopen): adding to final database dump
+0093.080 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_wpforms_tasks_meta.table.tmpr2.gz (95/48/fopen): adding to final database dump
+0093.081 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db-table-wp_wpforms_tasks_meta.table.gz (96/48/fopen): adding to final database dump
+0093.113 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db.gz: finished writing out complete database file (1109.4 KB)
+0093.135 (0) Total database tables backed up: 48 (backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db.gz, size: 1136140, sha1: 89075f91c6e346a05f4118bdb43629a68c2cebda, sha256: 99a79c96592885c486f16c6affc7baf0abca1b72e3b80bf7f1d6d6b8b5fe2a33)
+0093.139 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-plugins.zip: plugins: This file has already been successfully uploaded
+0093.139 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-themes.zip: themes: This file has already been successfully uploaded
+0093.140 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-uploads.zip: uploads: This file has already been successfully uploaded
+0093.141 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-others.zip: others: This file has already been successfully uploaded
+0093.145 (0) backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0093.146 (0) Saving backup history. Total backup size: 60 MB
+0093.148 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0093.151 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0093.151 (0) No remote despatch: user chose no remote backup service
+0093.152 (0) Recording as successfully uploaded: backup_2024-03-04-0646_MKKS_SMK_SWASTA_KOTA_MALANG_3ecd24640ef7-db.gz
+0093.154 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0093.155 (0) Number of backup sets in history: 1; groups (db): 1
+0093.156 (0) Examining (for databases) backup set with group_id=0, nonce=3ecd24640ef7, datestamp=1709534819 (Mar 04 2024 06:46:59)
+0093.157 (0) This backup set is the backup set just made, so will not be deleted.
+0093.157 (0) Number of backup sets in history: 1; groups (files): 1
+0093.158 (0) Examining (for files) backup set with nonce=3ecd24640ef7, datestamp=1709534819 (Mar 04 2024 06:46:59)
+0093.158 (0) This backup set is the backup set just made, so will not be deleted.
+0093.159 (0) This backup set is the backup set just made, so will not be deleted.
+0093.159 (0) This backup set is the backup set just made, so will not be deleted.
+0093.159 (0) This backup set is the backup set just made, so will not be deleted.
+0093.159 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0093.160 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0093.162 (0) Resume backup (3ecd24640ef7, 0): finish run
+0093.164 (0) Decremented the semaphore (fd) by 1
+0093.167 (0) Semaphore (fd) unlocked
+0093.168 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0093.171 (0) No email will/can be sent - the user has not configured an email address.
+0093.172 (0) The backup succeeded and is now complete
